@@ -1,0 +1,90 @@
+*{
+    margin-top: 30px;
+}
+.b p{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 180px;
+    margin-top: -15px;
+}
+#first a{
+    color: orange;
+}
+.left{
+    margin-left: 120px;
+    float: left;
+}
+.b{
+    margin-top: 10px;
+}
+.e{
+    width: 100%;
+    padding-top: 100%;
+    display: block;
+    position: relative;
+}
+.a{
+    background-color: lightgrey;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+.a img{
+    margin: 25px;
+}
+.count{
+    font-size: 40px;
+    margin: 25px;
+}
+.c{
+    margin: -10px;
+    margin-left: 20px;
+}
+li a{
+    color:black;
+}
+.right{
+    float: right;
+    margin-top:-500px;
+    margin-left: 200px;
+}
+.active{
+    float: left;
+    font-size: 20px;
+}
+.right ul li{
+    margin-left: 15px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+h3{
+    padding:300px;
+    font-family: 'Courier New', Courier, monospace;
+}
+li:first-child a{
+    color: orange;
+}
+.active img{
+    width: 15px;
+    height: 15px;;
+}
+.t{
+    width: 30px;
+    height: 30px;
+    border:0;
+    background: url(https://www.easyicon.net/download/png/32775/30/);
+    position: relative;
+    top:8px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+#in{
+    position: relative;
+    left: 350px;
+    top: -15px;
+}

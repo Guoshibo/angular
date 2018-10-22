@@ -1,0 +1,66 @@
+nav{
+    height:50px;
+    background-color: #ccc;
+    width: 1366px;
+    line-height: 50px;/*让首页、同步课、社区、课程在灰色的栏中居中*/
+    position: fixed; /*将导航栏固定在浏览器最顶端*/
+    top: 0;
+}
+#a{
+    float: left;
+    margin-left:120px;
+}
+ul{
+    margin-left: 500px;
+}
+.nav li{
+    float: left;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+}
+.a:hover{
+    background-color: lightgray;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+.nav li ul{
+    display:none;
+}  
+.b{
+    position: relative;
+    display: inline-block;
+}
+.c{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    margin-left: -30px;
+    text-align: center;
+}
+.b:hover .c {
+    display: block;
+}
+.c p:hover{
+    background-color: orange;
+}
+.t{
+    width: 30px;
+    height: 30px;
+    border:0;
+    margin-left: 0;
+    text-indent: -999px;
+    background: url(https://www.easyicon.net/download/png/32775/30/);
+}
+img{
+    position: relative;
+    top:10px;
+}
+.c p img{
+    position: relative;
+    top:2px;
+}

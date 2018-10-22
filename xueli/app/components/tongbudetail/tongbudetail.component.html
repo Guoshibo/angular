@@ -1,0 +1,35 @@
+  <!--<h3>{{(course|async)?.id}}</h3>-->
+    <!--上面这种写法的前提是在ts文件中写
+    this.router.params.subscribe((params)=>{this.courseId=params['courseId']});
+    -->
+<!--
+  <h3>同步课/{{course?.courseName}}</h3>
+  <ul class="list">
+    <li [class.active]="flag">简介</li>
+    <li [ngClass]="{'active':true,'big':true}">互动</li>
+    <li [style.color]="'pink'">任务{{course?.task}}</li>
+    <li [ngStyle]="{'color': 'purple','font-size':'50px'}">成员{{course?.person}}</li>
+  </ul>
+-->
+<!--
+<input type="radio" (change)="change(1)" value="1" name="num">1111
+<input type="radio" (change)="change(2)" value="2" name="num">2222
+<input checked type="radio" (change)="change(3)" value="3" name="num">3333
+<div [ngSwitch]="num">
+  <div *ngSwitchCase="1">1</div>
+  <div *ngSwitchCase="2">2</div>
+  <div *ngSwitchCase="3">3</div>
+</div>
+-->
+<div class="content">
+  <h3>同步课/{{course?.courseName}}</h3>
+  <div class="one">
+    <ul class="list">
+      <li>简介</li>
+      <li>互动</li>
+      <li>任务{{course?.task}}</li>
+      <li>成员{{course?.person}}</li>
+    </ul>
+  </div>
+  <div><img src="assets/images/5.jpg"></div>
+</div>

@@ -1,0 +1,20 @@
+.list li{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+h3{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.one{
+    margin-left: 100px;
+}
+img:only-child{
+    margin-left: 100px;
+}
+/*练习ngClass
+ 同时添加或移除多个 CSS 类
+ [ ngClass ] = “{‘类名’: value, … }”
+ value设置为true即为添加，设置为false即为消除
+ */

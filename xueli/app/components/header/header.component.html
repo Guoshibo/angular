@@ -1,0 +1,39 @@
+<nav><!--<nav> 标签定义导航链接的部分。如果文档中有“前后”按钮，则应该把它放到 <nav> 元素中。-->
+  <div id="a">
+    <img src="http://www.edu2act.net/static/img/logo.png">
+  </div>
+  <span>
+      <ul class="nav">
+          <li class="a"><a [routerLink]="['/home']">首页</a></li>
+          <li class="a"><a [routerLink]="['/tongbu']">同步课</a></li>
+          <li class="a"><a [routerLink]="['/course']">课程</a></li>
+          <!--
+          <li class="a"><a [routerLink]="['/community']" [queryParams]="{id:800}">社区</a></li>
+          -->
+          <li class="a"><a [routerLink]="['/community']">社区</a></li>
+          <li>
+            <form>
+              <input type="search" placeholder="搜索课程、问答">
+              <input type="submit" class="t">
+            </form>
+          </li>
+          <li class="b">
+            <span><img src="https://www.easyicon.net/download/png/521952/30/"></span>
+            <div class="c">
+              <p>@我的</p>
+              <p><img src="https://www.easyicon.net/download/png/1109719/15/">收到的赞</p>
+              <p><img src="https://www.easyicon.net/download/png/27427/16/">评论</p>
+            </div>
+          </li>
+          <li class="b">
+            <span><img src="https://www.easyicon.net/download/png/1068661/30/"></span>
+            <div class="c">
+              <p><img src="https://www.easyicon.net/download/png/10530/20/">个人主页</p>
+              <p><img src="https://www.easyicon.net/download/png/1191709/15/">设置</p>
+              <p><img src="https://www.easyicon.net/download/png/515992/15/">退出</p>
+            </div>
+          </li>
+        </ul>
+      </span>
+</nav>
+<app-footer></app-footer>

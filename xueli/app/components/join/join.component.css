@@ -1,0 +1,95 @@
+*{
+    margin-top: 30px;
+}
+.b p{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 180px;
+    margin-top: -15px;
+}
+.left{
+    margin-left: 120px;
+    float: left;
+}
+.a{
+    background-color: lightgrey;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+.a img{
+    margin: 25px;
+}
+.count{
+    font-size: 40px;
+    margin: 25px;
+}
+.c{
+    margin: -10px;
+    margin-left: 20px;
+}
+.right{
+    float: right;
+    margin-top:-480px;
+    margin-left: 300px;
+}
+.active{
+    float: left;
+}
+.right ul li{
+    font-size: 20px;
+    color:orange;
+}
+.t{
+    width: 30px;
+    height: 30px;
+    border:0;
+    background: url(https://www.easyicon.net/download/png/32775/30/);
+    position: relative;
+    top:8px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+#first a{
+    color: orange;
+}
+#in{
+    position: relative;
+    top: -40px;
+    left: 500px;
+}
+.one{
+    float: left;
+}
+.one img{
+    width: 270px;
+    height: 120px;
+    float: left;
+    margin-top: -45px;
+}
+.two h3{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.two{
+    margin-top: 110px;    
+    margin-left: 280px;    
+}
+.two a{
+    margin-right: 20px;
+    position: relative;
+    top: 60px;
+}
+.three {
+    position: relative;
+    top: -30px;
+    left:300px;
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(255, 110, 61);
+}

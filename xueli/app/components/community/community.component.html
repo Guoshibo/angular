@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="map"></div>
+    <div class="left">
+        <div *ngFor="let i of course" class="course">
+            <div class="set"></div>
+            <img src="{{i.img}}" />
+            <div class="list">
+                <div class="content-top">
+                    <img src="{{i.images}}" />
+                    <div class="content">
+                        <p>{{i.info}}</p>
+                    </div>
+                </div>
+                <div class="content-bottom">
+                    <div class="author">
+                        {{i.author}} · {{i.time}}
+                    </div>
+                    <div class="read">
+                        阅读 {{i.read}} | 评论 {{i.commit}}
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <section>
+            <h4>热门话题</h4>
+            <img src="assets/images/2.jpg">
+        </section>
+    </div>
+</div>
