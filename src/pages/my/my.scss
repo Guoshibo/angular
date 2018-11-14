@@ -1,0 +1,33 @@
+page-my {
+    ion-content{
+        background-color: #eee !important;
+        background-image: url(../../assets/imgs/images/images/5我的_01.png);        
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .top img{
+        display: block;
+        width: 100px;
+        margin: 12px auto;
+    }
+    .top p{
+        font-size: 20px;
+        margin:0 auto;
+        margin-left:130px;
+    }
+    ion-col{
+        background-color: white !important;
+        height:85px !important;
+        margin-left: 5px !important;
+        margin-right:5px !important;
+    }
+    ion-col p{
+        margin-top: 1px !important;
+    }
+    ion-row{
+        margin-top:5px !important;
+    }
+    .only{
+        background-color: lightgrey !important;
+    }
+}

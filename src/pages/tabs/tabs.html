@@ -1,0 +1,10 @@
+<ion-tabs selectedIndex="0">
+  <!-- selectedIndex 属性可设置首次加载时的默认加载项，第一次加载时，
+    默认选择的选项卡的索引值。如果没有设置索引，它将默认使用0，即第一个选项卡。 -->
+  <ion-tab [root]="tab1Root" tabTitle="首页" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="商城" tabIcon="briefcase"></ion-tab>
+  <ion-tab [root]="tab3Root" tabIcon="add-circle" ></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="灵感" tabIcon="planet"></ion-tab>
+  <ion-tab [root]="tab5Root" tabTitle="我的" tabIcon="person"></ion-tab>
+</ion-tabs>
+<!--[root]表示一个变量-->
